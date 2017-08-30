@@ -1,5 +1,6 @@
 * {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
+  margin: 0px;
 }
 
 .menu_navegação {
@@ -7,43 +8,67 @@
 	text-decoration: none;
 	border-bottom: none;
 	position: relative;
+  background-color: black;
+  border-bottom: 
+  }
 
+.tudo {
+    background-color: #EFC88B;
 }
 
-li-menu, li.menu span {
-  font-weight: 400;
+.li_menu, .logo {
+  font-weight: 100;
   letter-spacing: 2px;
   padding: 20px 0px;
   text-transform: uppercase;
   margin-right: 20px;
   margin-left: 20px;
   display:inline-block;
-  text-align: center;
-}
+  }
 
+a { 
+  text-decoration: none;
+ }
 
 
 .logo {
-  color: #000;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  letter-spacing: 4px;
-  padding: 0px 50px;
-}
+  letter-spacing: 5px;
+  float:left;
+  padding-bottom: 15px;
+  }
+
+  .li_menu:hover, .logo:hover {
+    background-color: #FE5F55;
+  } 
 
 .menu_lateral {
     color: #FFF;
+    list-style-type: none;
+    float:right;
+    margin-top:1px;
 }
     .Habilidade-geral {
-        width: 25%;
-        height: 150px;
+        width: 360px;
+        height: 148.5px;
+        margin-bottom: 1px;
     }
     .Habilidade-Oral {
-        background-color: #FAA116;
+        background-color: #FE5F55;
     }
     .Habilidade-Programação {
-        background-color: #57C7C3;
+        background-color: #FE5F55;
     }
     .Habilidade-Modelagem {
-        background-color: #3B97D3;
+        background-color: #FE5F55;
     }
+
+    .Habilidade-Design {
+        background-color: #FE5F55;
+    }
+
+.content {
+  float:left;
+  background-color: green;
+}
