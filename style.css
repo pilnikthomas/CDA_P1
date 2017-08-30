@@ -40,11 +40,11 @@ a {
   }
 
   .li_menu:hover, .logo:hover {
-    background-color: #FE5F55;
+    background-color: #9F8879;
   } 
 
 .menu_lateral {
-    color: #FFF;
+    color: #FFF ;
     list-style-type: none;
     float:right;
     margin-top:1px;
@@ -58,18 +58,18 @@ a {
         list-style-type:none;
     }
     .Habilidade-Oral {
-        background-color:#E5AD6B;
+        background-color: #523826;
     }
     .Habilidade-Programação {
-        background-color:#E5AD6B;
+        background-color:#523826;
     }
     .Habilidade-Modelagem {
-        background-color: #E5AD6B;
+        background-color: #523826;
     }
     .Habilidade-Design {
-        background-color:#E5AD6B;
+        background-color:#523826;
     }
 
 body{
-  background-color: #FFEFDC;
+  background-color: #CBEAEB;
 }
