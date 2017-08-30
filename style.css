@@ -6,15 +6,10 @@
 .menu_navegação {
 	text-align: center;
 	text-decoration: none;
-	border-bottom: none;
 	position: relative;
   background-color: black;
-  border-bottom: 
+  height:100px;
   }
-
-.tudo {
-    background-color: #EFC88B;
-}
 
 .li_menu, .logo {
   font-weight: 100;
@@ -32,11 +27,16 @@ a {
 
 
 .logo {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 5px;
   float:left;
   padding-bottom: 15px;
+  margin-top:13px;
+  }
+
+  .li_menu {
+    margin-top: 39px;
   }
 
   .li_menu:hover, .logo:hover {
@@ -53,22 +53,23 @@ a {
         width: 360px;
         height: 148.5px;
         margin-bottom: 1px;
+        font-weight: 100;
+        font-size:20px;
+        list-style-type:none;
     }
     .Habilidade-Oral {
-        background-color: #FE5F55;
+        background-color:#E5AD6B;
     }
     .Habilidade-Programação {
-        background-color: #FE5F55;
+        background-color:#E5AD6B;
     }
     .Habilidade-Modelagem {
-        background-color: #FE5F55;
+        background-color: #E5AD6B;
     }
-
     .Habilidade-Design {
-        background-color: #FE5F55;
+        background-color:#E5AD6B;
     }
 
-.content {
-  float:left;
-  background-color: green;
+body{
+  background-color: #FFEFDC;
 }
