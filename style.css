@@ -35,41 +35,71 @@ a {
   margin-top:13px;
   }
 
-  .li_menu {
-    margin-top: 39px;
-  }
+.li_menu {
+  margin-top: 39px;
+}
 
-  .li_menu:hover, .logo:hover {
-    background-color: #9F8879;
-  } 
+.li_menu:hover, .logo:hover {
+  background-color: #E5DFD7;
+  color: black;
+} 
 
 .menu_lateral {
-    color: #FFF ;
-    list-style-type: none;
-    float:right;
-    margin-top:1px;
+  color: #FFF ;
+  list-style-type: none;
+  float:right;
 }
-    .Habilidade-geral {
-        width: 360px;
-        height: 148.5px;
-        margin-bottom: 1px;
-        font-weight: 100;
-        font-size:20px;
-        list-style-type:none;
-    }
-    .Habilidade-Oral {
-        background-color: #523826;
-    }
-    .Habilidade-Programação {
-        background-color:#523826;
-    }
-    .Habilidade-Modelagem {
-        background-color: #523826;
-    }
-    .Habilidade-Design {
-        background-color:#523826;
-    }
+    
+.Habilidade-geral {
+  width: 360px;
+  height: 161px;
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size:30px;
+  list-style-type:none;
+  color:black;
+  background-color: #7B8D8E;
+  opacity:0.9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
 
-body{
-  background-color: #CBEAEB;
+}
+
+
+.background {
+  background-image: url(https://www.insper.edu.br/vestibular/wp-content/uploads/2016/02/FSC7963.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  height:658px;
+  width: 100%;
+}
+
+svg {
+  fill: #523826;
+}
+
+.menu {
+  color: #FFF;
+  display:inline-block;
+  float:left;
+  margin-top: 10px;
+  }
+
+.Projetos {
+  width: 300px;
+  height: 600px;
+  font-weight: 500;
+  font-size:30px;
+  list-style-type:none;
+  color:black;
+  background-color: #7B8D8E;
+  opacity: 0.8;
+  display:inline-block;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  margin: 0px 30px 0px 0px;
+  text-align: center;
 }
