@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+a { 
+  text-decoration: none;
+ }
+
 .menu_navegação {
 	text-align: center;
 	text-decoration: none;
@@ -21,11 +25,6 @@
   display:inline-block;
   }
 
-a { 
-  text-decoration: none;
- }
-
-
 .logo {
   font-size: 30px;
   font-weight: 700;
@@ -40,8 +39,9 @@ a {
 }
 
 .li_menu:hover, .logo:hover {
-  background-color: #E5DFD7;
+  background-color: #007EB2;
   color: black;
+  opacity:0.8;
 } 
 
 .menu_lateral {
@@ -56,14 +56,15 @@ a {
   margin-bottom: 3px;
   font-weight: 500;
   font-size:30px;
+  vertical-align: middle;
   list-style-type:none;
-  color:black;
-  background-color: #D9CCC8;
-  opacity:0.9;
+  color:white;
+  background-color: #00A2E5;
+  opacity:0.8;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
-  border-radius: 25px;
+  border-radius:10px;
 }
 
 
@@ -76,7 +77,7 @@ a {
 }
 
 svg {
-  fill: #523826;
+  fill: #007EB2;
 }
 
 .menu {
@@ -92,15 +93,49 @@ svg {
   font-weight: 500;
   font-size:30px;
   list-style-type:none;
-  color:black;
-  background-color: #D9CCC8;
+  color:white;
+  background-color: #004866;
   opacity: 0.8;
   display:inline-block;
   font-weight: 100;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 0px 10px;
-  margin: 0px 30px 0px 0px;
+  margin: 0px 30px 0px 7px;
   text-align: center;
-  border-radius: 25px;
+  border-radius:10px;
+
+}
+
+h3 {
+  color:black;
+}
+
+.texto_sobre {
+  margin-left: 250px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+.portfolio {
+  color: #FFF ;
+  list-style-type: none;
+  float:left;
+}
+
+.li_portfolio {
+  width: 360px;
+  height: 100px;
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size:30px;
+  vertical-align: middle;
+  list-style-type:none;
+  color:black;
+  background-color: #00A2E5;
+  opacity:0.8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius:10px;
 }
