@@ -3,15 +3,16 @@ $(document).on('ready', function() {
   dots: false,
   infinite: true,
   centerMode: true,
-  slidesToShow: 6,
+  slidesToShow: 5,
   slidesToScroll: 1
 });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-
-  	var design = document.getElementById("design");
-  	design.addEventListener("click", function() {
-  	design.style.display= "inline-block";
-});
-});
+function myFunction() {
+	var x = document.getElementById("ds");
+    if (x.style.visibility === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}

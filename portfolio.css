@@ -127,11 +127,15 @@ li {
 	display:inline-block;
 }
 
-.modelagem, .programacao, .eletronica, .design, .comunicacao {
+.modelagem, .comunicacao, .design, .programacao, .eletronica {
 	display:none;
 }
 
 button {
 	color:white;
 	background-color: black
+}
+
+.todos {
+	display: block;
 }

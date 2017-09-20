@@ -48,8 +48,9 @@ a {
 } 
 
 .sobre {
-	display:inline;
+	display:inline-block;
 	float:center;
+	position: relative;
 }
 
 .avatar {
@@ -57,9 +58,10 @@ a {
 	border-radius: 100%;
 	overflow: hidden;
 	box-shadow: 0 0 5px rgba(0,0,0,.3);
-	margin: 10px;
-	border: 10px 10px;
-}
+	float:center;
+	margin-left:auto;
+	position: relative;
+	}
 
 h3 {
 	color:black;
@@ -69,4 +71,5 @@ h3 {
 	margin-left: 250px;
 	margin-right: 150px;
 	text-align: justify;
+	position: relative;
 }
