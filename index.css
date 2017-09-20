@@ -1,0 +1,105 @@
+* {
+	font-family: 'Yantramanav', sans-serif;
+	margin: 0px;
+}
+
+a { 
+	text-decoration: none;
+}
+
+.menu_navegação {
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	background-color: black;
+	height:100px;
+}
+
+.li_menu, .logo {
+	text-transform: uppercase;
+	margin-right: 20px;
+	margin-left: 20px;
+	display:inline-block;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	float:left;
+	padding-bottom: 15px;
+	margin-top:13px;
+	padding: 20px 0px;
+}
+
+.li_menu {
+	margin-top: 43px;
+	font-size: 18px;
+	padding: 17px 0px;
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+
+.li_menu:hover, .logo:hover {
+	background-color: #007EB2;
+	color: black;
+	opacity:0.8;
+} 
+
+.menu_lateral {
+	color: #FFF ;
+	list-style-type: none;
+	float:right;
+}
+
+.Habilidade-geral {
+	width: 360px;
+	height: 161px;
+	margin-bottom: 3px;
+	font-weight: 500;
+	font-size:30px;
+	vertical-align: middle;
+	list-style-type:none;
+	color:white;
+	background-color: #00A2E5;
+	opacity:0.8;
+ 	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius:10px;
+}
+
+.menu {
+	color: #FFF;
+	display:inline-block;
+	float:left;
+	margin-top: 10px;
+  }
+
+.background {
+	background-image: url(https://www.insper.edu.br/vestibular/wp-content/uploads/2016/02/FSC7963.jpg);
+	background-size: cover;
+	background-position: bottom center;
+	height:658px;
+	width: 100%;
+}
+
+.Projetos {
+	width: 300px;
+	height: 600px;
+	font-weight: 500;
+	font-size:30px;
+	list-style-type:none;
+	color:white;
+	background-color: #004866;
+	opacity: 0.8;
+	display:inline-block;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 0px 10px;
+	margin: 0px 30px 0px 7px;
+	text-align: center;
+	border-radius:10px;
+
+}
