@@ -1,10 +1,13 @@
 * {
 	font-family: 'Yantramanav', sans-serif;
 	margin: 0px;
+	box-sizing: border-box;
+
 }
 
 a { 
 	text-decoration: none;
+	color: white;
 }
 
 .menu_navegação {
@@ -68,3 +71,7 @@ a {
 	text-align: center;
 	border-radius:10px;
 }
+html, body {
+      margin: 0;
+      padding: 0;
+    }

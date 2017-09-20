@@ -111,6 +111,7 @@ svg {
 
 .sobre {
   display:inline;
+  float:center;
 }
 
 .avatar {
