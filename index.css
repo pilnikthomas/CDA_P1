@@ -86,8 +86,6 @@ a {
 }
 
 .Projetos {
-	width: 300px;
-	height: 600px;
 	font-weight: 500;
 	font-size:30px;
 	list-style-type:none;
@@ -103,4 +101,19 @@ a {
 	text-align: center;
 	border-radius:10px;
 
+}
+
+.Projeto1 {
+	width: 300px;
+	height: 600px;
+}
+
+.Projeto2 {
+	width: 700px;
+	height: 300px;
+}
+
+.Projeto3 {
+	width: 300px;
+	height: 600px;
 }
