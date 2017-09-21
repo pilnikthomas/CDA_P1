@@ -15,7 +15,7 @@ a {
 	text-decoration: none;
 	position: relative;
 	background-color: black;
-	height:130px;
+	height:100px;
 }
 
 .li_menu, .logo {
@@ -74,19 +74,16 @@ a {
 
 .div {
 	margin-bottom: 4px;
-	color:white;
 }
 
 h3 {
 	padding-left: 10px;
-	padding-top: 30px;
-	padding-bottom:20px;
+	padding-top: 10px;
 }
 
 .slider {
     width: auto;
-    margin: 33px 50px;
-    
+    margin: 10px 50px;
 }
 
 .slick-slide {
@@ -94,13 +91,11 @@ h3 {
 }
 
 .slick-slide img {
-    width: 200px;
-    height:172px;
-
+    width: 230px;
 }
 
 .slick-prev:before, .slick-next:before {
-    color: white;
+    color: black;
 }
 
 
@@ -117,25 +112,27 @@ h3 {
     opacity: 1;
 }
 
-.tudo {
-	background-color:black;
-	padding-bottom: 3px;
+.design{
+	display: block ;
 }
 
-li {
-	list-style-type: none;
-	display:inline-block;
+.comunicacao{
+	display: block;
 }
 
-.modelagem, .comunicacao, .design, .programacao, .eletronica {
-	display:none;
+.programacao{
+	display:block;
+}
+
+.eletronica{
+	display:block;
+}
+
+.modelagem{
+	display:block;
 }
 
 button {
-	color:white;
-	background-color: black
-}
-
-.todos {
-	display: block;
+	color: white;
+	background-color: black;
 }
