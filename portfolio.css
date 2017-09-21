@@ -92,6 +92,7 @@ h3 {
 
 .slick-slide img {
     width: 230px;
+    height: 210px;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -135,4 +136,8 @@ h3 {
 button {
 	color: white;
 	background-color: black;
+}
+
+img:hover {
+	background-color: yellow;
 }
