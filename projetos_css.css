@@ -53,23 +53,41 @@ a {
 	position: relative;
 }
 
-.avatar {
-	width: 15%;
+img {
+	width: 25%;
 	overflow: hidden;
 	box-shadow: 0 0 5px rgba(0,0,0,.3);
 	float:center;
 	margin-left:auto;
 	position: relative;
-	margin:100px;
+	margin-top:30px;
+	margin-left: 30px;
 	}
 
-h3 {
-	color:black;
+#lista_infos {
+	color:#E75200;
 }
 
-.texto_sobre {
-	margin-left: 250px;
-	margin-right: 150px;
+h4 {
+	color:white;
+}
+
+#texto_sobre {
 	text-align: justify;
 	position: relative;
+}
+
+.sobre_infos {
+	list-style-type: none;
+	color:white;
+	margin-right:30px;
+}
+
+.Fundo {
+	background-color: #004866;
+}
+
+#titulo {
+	margin-top: 5px; 
+	color: white;
 }
