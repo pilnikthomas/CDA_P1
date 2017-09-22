@@ -2,7 +2,6 @@
 	font-family: 'Yantramanav', sans-serif;
 	margin: 0px;
 	box-sizing: border-box;
-
 }
 
 a { 
@@ -74,11 +73,16 @@ a {
 
 .div {
 	margin-bottom: 4px;
+	color:white;
+
 }
 
 h3 {
 	padding-left: 10px;
 	padding-top: 10px;
+}
+h4{
+	text-align: left
 }
 
 .slider {
@@ -91,12 +95,12 @@ h3 {
 }
 
 .slick-slide img {
-    width: 230px;
-    height: 210px;
+    width: 160px;
+    height: 130px;
 }
 
 .slick-prev:before, .slick-next:before {
-    color: black;
+    color: white;
 }
 
 
@@ -139,5 +143,8 @@ button {
 }
 
 img:hover {
-	background-color: yellow;
+	background-color: white;
+}
+.tudo{
+	background-color: #004866
 }
