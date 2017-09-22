@@ -6,7 +6,6 @@
 a { 
 	text-decoration: none;
 	color: white;
-	m
 }
 
 .menu_navegação {
@@ -40,6 +39,7 @@ a {
 	padding: 17px 0px;
 	font-weight: 100;
 	letter-spacing: 3px;
+	float:right;
 }
 
 .li_menu:hover, .logo:hover {
@@ -96,59 +96,27 @@ a {
 	padding: 0px 10px;
 	margin: 0px 30px 0px 30px;
 	text-align: center;
-	border-radius:20px;
+	border-radius:30px;
 	align-content: center;
 	border-bottom: 20px
 	text-indent:50px;
+	margin-top: 180px;
 }
 
 .Projeto1 {
 	width: 400px;
-	height: 600px;
+	height: 250px;
 	
 }
 
 .Projeto2 {
 	width: 400px;
-	height:600px;
-	
+	height:250px;
 
 }
 
 .Projeto3 {
 	width: 400px;
-	height: 600px;
-	
+	height: 250px;	
 }
 
-.slider {
-    width: auto;
-    margin: 10px 50px;
-}
-
-.slick-slide {
-    margin: 0px 20px;
-}
-
-.slick-slide img {
-    width: 160px;
-    height: 130px;
-}
-
-.slick-prev:before, .slick-next:before {
-    color: white;
-}
-
-
-.slick-slide {
-    transition: all ease-in-out .2s;
-    opacity: .2;
-}
-    
-.slick-active {
-    opacity: .5;
-}
-
-.slick-current {
-    opacity: 1;
-}

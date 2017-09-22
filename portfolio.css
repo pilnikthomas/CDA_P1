@@ -40,6 +40,7 @@ a {
 	padding: 17px 0px;
 	font-weight: 100;
 	letter-spacing: 3px;
+	float:right;
 }
 
 .li_menu:hover, .logo:hover {
