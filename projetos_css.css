@@ -95,3 +95,14 @@ h4 {
 h2 {
 	color:white;
 }
+
+.avatar {
+	width: 20%;
+	border-radius: 100%;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	float:center;
+	margin-left:550px;
+	position: relative;
+	}
+}
