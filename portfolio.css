@@ -44,7 +44,7 @@ a {
 }
 
 .li_menu:hover, .logo:hover {
-	background-color: #007EB2;
+	background-color: #E75200;
 	color: black;
 	opacity:0.8;
 } 
@@ -75,6 +75,7 @@ a {
 .div {
 	margin-bottom: 4px;
 	color:white;
+	border-bottom: dashed 0.5px #FFF;
 
 }
 
@@ -83,7 +84,10 @@ h3 {
 	padding-top: 10px;
 }
 h4{
-	text-align: left
+	text-align: left;
+	font-size:60px;
+	padding-left: 10px;
+	
 }
 
 .slider {
@@ -143,9 +147,10 @@ button {
 	background-color: black;
 }
 
-img:hover {
-	background-color: white;
-}
+
 .tudo{
 	background-color: #004866
+}
+.todos{
+
 }
