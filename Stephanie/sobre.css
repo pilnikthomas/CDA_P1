@@ -1,0 +1,111 @@
+* {
+	font-family: 'Yantramanav', sans-serif;
+	margin: 0px;
+}
+
+a { 
+	text-decoration: none;
+	color: white;
+}
+
+.menu_navegação {
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	background-color: black;
+	height:100px;
+}
+
+.li_menu, .logo {
+	text-transform: uppercase;
+	margin-right: 20px;
+	margin-left: 20px;
+	display:inline-block;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	float:left;
+	padding-bottom: 15px;
+	margin-top:13px;
+	padding: 20px 0px;
+}
+
+.li_menu {
+	margin-top: 43px;
+	font-size: 18px;
+	padding: 17px 0px;
+	font-weight: 100;
+	letter-spacing: 3px;
+	float:right;
+}
+
+.li_menu:hover, .logo:hover {
+	background-color: #E75200;
+	color: black;
+	opacity:0.8;
+} 
+
+.sobre {
+	display:inline-block;
+	float:center;
+	position: relative;
+}
+
+img {
+	width: 20%;
+	overflow: hidden;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	float:left;
+	margin-left:auto;
+	position: relative;
+	margin-top:30px;
+	margin-left: 60px;
+	margin-top: 30px;
+	border-radius: 100%;
+	border: 10px solid #E75200;
+	}
+
+.lista_infos {
+	color:#E75200;
+}
+
+h4 {
+	color:white;
+}
+
+.texto_sobre {
+	text-align: justify;
+	position: relative;
+	margin-left:300px;
+	margin-top: 30px;
+	padding-top: 5px;
+	border-top: 5px;
+	display:inline-block;
+	margin-bottom: 10px;
+}
+
+.sobre_infos {
+	list-style-type: none;
+	color:white;
+	margin-right:30px;
+	margin-bottom: 120px;
+	margin-top: 130px;
+}
+
+.Fundo {
+	background-color: #004866;
+	padding-bottom: 8px;
+
+}
+
+h2 {
+	color:white;
+}
+
+img{
+
+}
+
