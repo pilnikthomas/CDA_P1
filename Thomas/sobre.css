@@ -79,7 +79,7 @@ h4 {
 .texto_sobre {
 	text-align: justify;
 	position: relative;
-	margin-left:500px;
+	margin-left:300px;
 	margin-top: 30px;
 	padding-top: 5px;
 	border-top: 5px;
@@ -91,7 +91,7 @@ h4 {
 	list-style-type: none;
 	color:white;
 	margin-right:30px;
-	margin-bottom: 1000px;
+	margin-bottom: 120px;
 	margin-top: 130px;
 }
 
